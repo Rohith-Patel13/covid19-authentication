@@ -1,0 +1,59 @@
+###  GET Request API 1 states
+GET http://localhost:3001/states/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjkxMzI3ODE0fQ.xjF8Lt0kwobGf3oRkAmCCuNksfFULFeLy2w_ViUc0eE
+
+### GET Request API 2 states
+GET http://localhost:3001/states/8/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjkxMzI3ODE0fQ.xjF8Lt0kwobGf3oRkAmCCuNksfFULFeLy2w_ViUc0eE
+
+### POST Request API 3 districts
+POST http://localhost:3001/districts/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjkxMzI3ODE0fQ.xjF8Lt0kwobGf3oRkAmCCuNksfFULFeLy2w_ViUc0eE
+
+{
+  "districtName": "Bagalkot",
+  "stateId": 3,
+  "cases": 2323,
+  "cured": 2000,
+  "active": 315,
+  "deaths": 8
+}
+
+### GET Request API 4 districts
+GET http://localhost:3001/districts/322/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjkxMzI3ODE0fQ.xjF8Lt0kwobGf3oRkAmCCuNksfFULFeLy2w_ViUc0eE
+
+
+###  DELETE Request API 5 districts
+DELETE http://localhost:3001/districts/323/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjkxMzI3ODE0fQ.xjF8Lt0kwobGf3oRkAmCCuNksfFULFeLy2w_ViUc0eE
+
+### PUT Request API 6 districts
+PUT http://localhost:3001/districts/324/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjkxMzI3ODE0fQ.xjF8Lt0kwobGf3oRkAmCCuNksfFULFeLy2w_ViUc0eE
+
+{
+  "districtName": "Nadia",
+  "stateId": 3,
+  "cases": 9628,
+  "cured": 6524,
+  "active": 3000,
+  "deaths": 104
+}
+
+### GET Request API 7 States
+GET http://localhost:3001/states/1/stats/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjkxMzI3ODE0fQ.xjF8Lt0kwobGf3oRkAmCCuNksfFULFeLy2w_ViUc0eE
+
+
+### first api 
+POST http://localhost:3001/login/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjkxMzI3ODE0fQ.xjF8Lt0kwobGf3oRkAmCCuNksfFULFeLy2w_ViUc0eE
+
+{
+  "username": "christopher_phillips",
+  "password": "christy@123"
+}
